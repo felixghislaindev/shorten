@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: #0f0f22;
+}
+.copied {
+  background: #fff;
+  color: var(--primary-color);
+}
+.elementToFadeInAndOut {
+  -webkit-animation: fadeinout 4s linear forwards;
+  animation: fadeinout 4s linear forwards;
+  opacity: 0;
+}
+
+@-webkit-keyframes fadeinout {
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinout {
+  50% {
+    opacity: 1;
+  }
+}
