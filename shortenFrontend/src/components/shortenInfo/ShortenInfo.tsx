@@ -6,7 +6,7 @@ export const ShortenInfo = () => {
       <div className="text-center ">
         <p className="font-Satisfy text-5xl text-white pb-3">Shorten</p>
         <p className="text-gray-500 text-2xl">
-          tets This url shorteners just makes your links shorter.
+          This url shorteners just makes your links shorter.
         </p>
       </div>
     </div>
