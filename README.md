@@ -2,10 +2,6 @@
 
 # Project title
 
-NFS-(Newton Fashion Store) is upskilling project on headless CMS using Commerce Tools and Contentful to create a storefront allowing the user to have an immersive eCommerce experience.
-
-## Motivation
-
 Shorten is a simple full-stack application that provides URL shortening functionality,it uses NanoId in the backend.
 
 ## Code style
