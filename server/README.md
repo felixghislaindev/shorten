@@ -1,12 +1,8 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
-# Project title
+# ShortenerURL back-end
 
-NFS-(Newton Fashion Store) is upskilling project on headless CMS using Commerce Tools and Contentful to create a storefront allowing the user to have an immersive eCommerce experience.
-
-## Motivation
-
-Shorten is a simple full-stack application that provides URL shortening functionality, it utilise NanoId in the backend .
+ShortenerURL back-end, built with graphql, typescript, nodejs and nanoid. The back end will accept URL and return an 8 character (lowercase-alphanumeric) shortened version of the URL. The URLs shortened are persisted into using MongoDB Atlas and distributed via GraphQL API .
 
 ## Code style
 
@@ -19,28 +15,20 @@ Shorten is a simple full-stack application that provides URL shortening function
 - [Node](https://nodejs.org/en/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Graphql](https://graphql.org/)
-- [NanoId](https://graphql.org/)
+- [Nanoid](https://www.npmjs.com/package/nanoid)
 
 ## Installation
 
 Step-by-step series of examples and explanations about the installation and running of the app to get you smoothly developing.
-**1. Cloning the project**
 
-```sh
-# Clone with SSH:
-git@gitlab.com:t3796/ecommerce-tool.git
-# Clone with HTTPS:
-https://gitlab.com/t3796/ecommerce-tool.git
-```
-
-**2. Install required project dependencies**
+**1. Install required project dependencies**
 
 ```sh
 # install all required packages:
 npm install
 ```
 
-**3.Start developing.**
+**2.Start developing.**
 
     Navigate into your new site directory and start it up.
 
@@ -52,58 +40,6 @@ To make use of the graphql playground for this api
 ```sh
 # navigate to:
  http://localhost:9000/api/
-```
-
-## 🧐 What's inside?
-
-```
-   ├─ .babelrc
-   ├─ README.md
-   ├─ package-lock.json
-   ├─ package.json
-   ├─ public
-   │  ├─ favicon.ico
-   │  ├─ index.html
-   │  ├─ logo192.png
-   │  ├─ logo512.png
-   │  ├─ manifest.json
-   │  └─ robots.txt
-   ├─ setupTests.js
-   ├─ src
-   │  ├─ App.css
-   │  ├─ App.tsx
-   │  ├─ components
-   │  │  ├─ button
-   │  │  │  └─ Button.tsx
-   │  │  ├─ index.tsx
-   │  │  ├─ navBar
-   │  │  │  └─ Navbar.tsx
-   │  │  ├─ previousShortenUrls
-   │  │  │  ├─ PreviousShortenUrls.test.tsx
-   │  │  │  └─ PreviousShortenUrls.tsx
-   │  │  ├─ shortUrlSection
-   │  │  │  ├─ ShortUrlSection.test.tsx
-   │  │  │  └─ ShortUrlSection.tsx
-   │  │  ├─ shortenInfo
-   │  │  │  └─ ShortenInfo.tsx
-   │  │  └─ shortenUrlClipboard
-   │  │     ├─ shortemUrlClipboard.test.tsx
-   │  │     └─ shortenUrlClipboard.tsx
-   │  ├─ index.tsx
-   │  ├─ lib
-   │  │  └─ api
-   │  │     ├─ index.ts
-   │  │     ├─ server.ts
-   │  │     └─ useQuery.ts
-   │  ├─ mockProvider
-   │  │  └─ myMockProvider.js
-   │  ├─ styles
-   │  │  └─ index.css
-   │  └─ types
-   │     └─ index.ts
-   ├─ tailwind.config.js
-   └─ tsconfig.json
-
 ```
 
 ## Contribute

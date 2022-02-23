@@ -32,9 +32,9 @@ Step-by-step series of examples and explanations about the installation and runn
 
 ```sh
 # Clone with SSH:
-git@gitlab.com:t3796/ecommerce-tool.git
+git@github.com:felixghislaindev/shorten.git
 # Clone with HTTPS:
-https://gitlab.com/t3796/ecommerce-tool.git
+https://github.com/felixghislaindev/shorten.git
 ```
 
 **2. Install required project dependencies**
