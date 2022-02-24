@@ -48,11 +48,16 @@ npm install
 
     1. Navigate to the server(to run the back-end server).
 
-    ```npm run start
+    ```
+    create .env file
+    npm install
+    npm run start
     ```
     2. Navigate to shorten-front-end (to run the front-end server).
 
-    ```npm run start
+    ```
+    npm install
+    npm run start
     ```
 
 To run the required unit test for the project
